@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExcelFileReaderWeb</name>
+    </assembly>
+    <members>
+        <member name="M:ExcelFileReaderWeb.Controllers.EmployeesController.ReadExcelFile(ExcelFileReaderWeb.Logger.ILog,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Gets a list of all Employees from uploaded file. 
+            Can be tested with the testFile in ExcelFileReaderTest
+            </summary>
+            <returns>A list of Employees</returns>
+            <param name="file"></param>  
+        </member>
+    </members>
+</doc>
